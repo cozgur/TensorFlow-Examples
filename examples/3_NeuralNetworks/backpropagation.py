@@ -14,6 +14,7 @@ mnist = input_data.read_data_sets("MNIST_data/", one_hot=True)
 
 a_0 = tf.placeholder(tf.float32, [None, 784])
 y = tf.placeholder(tf.float32, [None, 10])
+#1 input 1 hidden layer var
 #ornekte input layer 784 node, hidden layer 10 node.
 #w1-> input layer, w2->hidden layer 1, b1-> input layer bias, b2->hidden1 layer bias
 middle = 30 #input layer daki node sayısı.
