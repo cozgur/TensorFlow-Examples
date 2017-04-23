@@ -1,0 +1,5 @@
+katmanlardaki kullanılacak veri tipindeki shape değerleri.
+input layer 900x5
+hidden layer 1 5x5
+hidden layer 2 7x5
+hidden layer 3 4x5
